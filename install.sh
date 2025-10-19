@@ -1,5 +1,8 @@
 GIT_ROOT=$(git rev-parse --show-toplevel)
 
+# Install
+yay -S --needed - < explicit_packages.txt
+
 # ZSH & ZShRC
 echo "[zsh] Installing..."
 sudo pacman -S --needed zsh
