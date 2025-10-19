@@ -49,7 +49,7 @@ if [ -L "~/.themes" ]; then
     rm -r "~/.themes"
 fi
 echo "[cinnamon.themes] Linking..."
-ln -sf "$GIT_ROOT/src/.icons" ~/.icons
+ln -sf "$GIT_ROOT/src/.themes" ~/.themes
 
 # XProfile
 echo "[xprofile] Installing..."
