@@ -1,0 +1,2 @@
+# User-Set
+xrandr --output eDP-1 --gamma 1.2:1.2:1.2
